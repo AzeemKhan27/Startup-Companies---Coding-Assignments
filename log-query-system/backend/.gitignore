@@ -1,0 +1,37 @@
+# Node.js dependencies and logs
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Log files and folders
+logs/
+*.log
+!logs.json          # Keep logs.json tracked
+
+# Build output folders
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Frontend-specific (Vite)
+frontend/dist/
+frontend/dist-ssr/
+frontend/node_modules/
+frontend/package-lock.json
