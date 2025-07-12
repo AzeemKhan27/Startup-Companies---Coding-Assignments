@@ -1,0 +1,22 @@
+# Node modules
+**/node_modules
+
+# Logs
+*.log
+
+# dotenv
+.env
+
+# build artifacts
+frontend/dist
+backend/build
+
+# Vite cache
+frontend/.vite
+
+# VSCode
+.vscode
+
+# OS junk
+.DS_Store
+Thumbs.db
