@@ -25,6 +25,7 @@ io.on("connection", (socket) => {
 });
 
 const VALID_DEVICES = ["mobile", "desktop", "tablet"];
+const VALID_ACTIONS = ["clicked", "scrolled", "logged-in", "logged-out"];
 
 app.post("/activity", (req, res) => {
   const { userId, action, device, screen } = req.body;
