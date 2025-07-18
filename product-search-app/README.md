@@ -4,7 +4,7 @@ A simple React-based product search interface using `dummyjson.com` API.
 
 ---
 
-### 🚀 Features
+### Features
 
 - 🔍 Live product search by title
 - 🖼️ Product cards with thumbnail, title, category, price, and tags

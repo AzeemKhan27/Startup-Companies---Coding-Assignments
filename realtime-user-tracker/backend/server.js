@@ -2,7 +2,7 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 import { Server } from "socket.io";
-import { storeActivity, getAllActivities } from "./utils/activityStore.js";
+import { storeActivity, getAllActivities, VALID_ACTIONS  } from "./utils/activityStore.js";
 
 const app = express();
 const server = http.createServer(app);

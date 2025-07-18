@@ -51,6 +51,8 @@ A fullstack project built using **Node.js + Express + Socket.IO (WebSocket)** on
 ```
 realtime-user-tracker/
 ├── backend/
+│    └── utils/
+│    └── activityStore.js // In-memory store for activities
 │   ├── server.js
 │   └── package.json
 ├── frontend/
